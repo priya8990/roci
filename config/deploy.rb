@@ -1,8 +1,8 @@
 # Change these
 server '45.55.82.209', port: 80, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'git://github.com:priya8990/some.git'
-set :application,     'some'
+set :repo_url,        'git://github.com:priya8990/roci.git'
+set :application,     'roci'
 set :user,            'demo'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
