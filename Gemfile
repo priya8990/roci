@@ -30,6 +30,8 @@ group :development do
     gem 'capistrano-rails', '~> 1.1', '>= 1.1.8'
     gem 'capistrano-bundler', '~> 1.1', '>= 1.1.4'
     gem 'capistrano3-puma', '~> 1.2', '>= 1.2.1'
+gem 'capistrano-passenger', '~> 0.2.0', github: 'capistrano/passenger
+
 # Add this if you're using rbenv
 
 gem 'capistrano-rbenv', '~> 2.0', '>= 2.0.4'
