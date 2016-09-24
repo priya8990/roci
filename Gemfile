@@ -24,16 +24,15 @@ group :development, :test do
   gem 'sqlite3', '1.3.11'
   gem 'byebug',  '9.0.0', platform: :mri
 end
-
 group :development do
-    gem 'capistrano',         require: false
-    gem 'capistrano-rvm',     require: false
-    gem 'capistrano-rails',   require: false
-    gem 'capistrano-bundler', require: false
-    gem 'capistrano3-puma',   require: false
+    gem 'capistrano', '~> 3.6', '>= 3.6.1'
+    gem 'capistrano-rvm', '~> 0.1.2'
+    gem 'capistrano-rails', '~> 1.1', '>= 1.1.8'
+    gem 'capistrano-bundler', '~> 1.1', '>= 1.1.4'
+    gem 'capistrano3-puma', '~> 1.2', '>= 1.2.1'
 # Add this if you're using rbenv
-gem 'capistrano-rbenv', github: "capistrano/rbenv"
 
+gem 'capistrano-rbenv', '~> 2.0', '>= 2.0.4'
   gem 'web-console',           '3.1.1'
   gem 'listen',                '3.0.8'
   gem 'spring',                '1.7.1'
@@ -54,4 +53,5 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-
+#git remote add origin https://github.com/priya8990/roci.git
+#git push -u origin master

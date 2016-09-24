@@ -31,6 +31,9 @@ group :development do
     gem 'capistrano-rails',   require: false
     gem 'capistrano-bundler', require: false
     gem 'capistrano3-puma',   require: false
+# Add this if you're using rbenv
+
+gem 'capistrano-rbenv', '~> 2.0', '>= 2.0.4'
   gem 'web-console',           '3.1.1'
   gem 'listen',                '3.0.8'
   gem 'spring',                '1.7.1'
@@ -51,4 +54,5 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-
+#git remote add origin https://github.com/priya8990/roci.git
+#git push -u origin master
